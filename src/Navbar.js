@@ -53,7 +53,7 @@ class Navbar extends Component {
                 </div>
                 <Snackbar
                     open={this.state.open}
-                    autoHideDuration={6000}
+                    autoHideDuration={3000}
                     message={<span id='message-id'>Format changed to {format.toUpperCase()}</span>}
                     ContentProps={{
                         "aria-described-by": "message-id"
